@@ -43,7 +43,7 @@ function JournalForm({ onSubmit }) {
 		<form className={styles['journal-form']} onSubmit={addJournalItem}>
 			<div>
 				<input
-					type="text"
+					type="title"
 					name="title"
 					className={cn(styles['input-title'], {
 						[styles['invalid']]: !formValidState.title
@@ -74,7 +74,7 @@ function JournalForm({ onSubmit }) {
 
 			<textarea
 				name="post"
-				id=""
+				id="post"
 				cols="30"
 				rows="10"
 				className={cn(styles['input'], {
