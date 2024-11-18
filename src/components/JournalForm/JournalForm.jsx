@@ -100,4 +100,5 @@ function JournalForm({ onSubmit }) {
 		</form>
 	);
 }
+
 export default JournalForm;
